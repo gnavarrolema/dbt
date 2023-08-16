@@ -2,6 +2,7 @@ version: 2
 
 models:
   - name: items
+    description: '{{ doc("items") }}'
     columns:
       - name: status
         tests:
